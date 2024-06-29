@@ -1,0 +1,74 @@
+.resto-header {
+  border: 2px solid tomato;
+  border-radius: 5px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav-items > ul {
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+#logo > img {
+  width: 80px;
+  padding: 3px;
+}
+
+.res-card > img {
+  width: 200px;
+  padding: 20px;
+}
+
+.res-card {
+  background-color: #faebd7;
+  border-radius: 5px;
+  width: 88%;
+  height: 486px;
+  margin-top: 40px;
+}
+
+.res-body-con {
+  padding: 5px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 2px solid salmon;
+}
+
+.rating-space {
+  justify-content: space-between;
+  padding: 3px;
+  display: flex;
+}
+
+.res-des {
+  padding: 0 3px;
+}
+
+.res-search {
+  border: 1px solid tomato;
+  width: 20%;
+  margin-top: 20px;
+  margin-left: 20%;
+  padding: 5px;
+}
+
+.res-cards-all {
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
+  gap: 10px;
+  display: grid;
+}
+
+.res-cards-all > div {
+  text-align: center;
+  padding: 10px;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

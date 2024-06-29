@@ -1,17 +1,66 @@
-#heading {
-color: rgb(241, 92, 92);
+.resto-header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+.nav-items > ul {
+display: flex;
+}
+.nav-items > ul >li {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+#logo > img {
+    width:80px;
+    padding : 3px;
 }
 
-#jsxheading {
-    color: teal;
-}
-.rfc{
-    color: rgb(241, 92, 92);
-}
-.tfc{
-    color: rgb(241, 92, 92);
+.res-card > img {
+    width: 200px;
+    padding: 20px;
 }
 
-#content{
-    color: palevioletred;
+.res-card {
+    width: 88%;
+    height: 486px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+}
+.res-body-con{
+    padding: 5px;
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 2px solid salmon;
+}
+.rating-space{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.res-des{
+    padding: 0px 3px;
+}
+.res-search{
+    width: 20%;
+    border: 1px solid tomato;
+    padding: 5px;
+    margin-left: 20%;
+    margin-top: 20px;
+
+}
+.res-cards-all{
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.res-cards-all > div {
+    padding: 10px;
+    text-align: center;
 }

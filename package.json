@@ -27,11 +27,12 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "jquery": "^3.7.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "reactdom": "^2.0.0"
   },
-  "browsers-list":[
+  "browsers-list": [
     "last 2 chrome version",
     "last 5 firefox version"
   ]
